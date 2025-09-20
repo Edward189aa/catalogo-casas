@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo de Inmuebles - Lima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Catálogo de inmuebles - Lima</h1>
+      <p class="muted">Casas, apartamentos y lotes • Diseño responsivo</p>
+    </header>
+
+    <div class="controls">
+      <input id="search" placeholder="Buscar por nombre o zona" />
+      <select id="category"></select>
+      <select id="sort">
+        <option value="recientes">Orden predeterminado</option>
+        <option value="precio-asc">Precio: menor → mayor</option>
+        <option value="precio-desc">Precio: mayor → menor</option>
+      </select>
+    </div>
+
+    <main id="list" class="list"></main>
+
+    <footer>
+      
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
